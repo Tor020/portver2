@@ -1,17 +1,52 @@
 /* Custom Styles */
 
+#archive, #resume{
+  outline:none;
+  text-decoration: none;
+  margin-left:5px;
+
+}
+#resume{
+padding-left: 0px !important;
+
+}
+#archive{
+padding-left: 4px !important;
+
+}
+
+
+
+img {
+  margin-bottom:10px !important;
+}
 a:link, a:visted, a:hover, a:active, a
 {
 text-decoration:none;
 }
 .offset-main
 {
-	margin-left:300px
+	margin-right:250px
 }
 .profilepic{
-	width:45%;
+	width:70%;
 	border-radius: 14px;
-}/*
+    margin-left:15px;
+    margin-bottom:0px !important;
+
+}
+
+#mySidebar{
+  z-index:3;
+  width:300px;
+  height: 100%;
+
+  background-color: #fff;
+  position: fixed;
+  right:10px;
+}
+
+/*
 
 .igap {
   margin-left:2px;
@@ -379,6 +414,7 @@ textarea {
   position: relative;
   top: 6px
 }
+/*
 .w3-sidebar {
   height: 100%;
   width: 200px;
@@ -386,7 +422,7 @@ textarea {
   position: fixed!important;
   z-index: 1;
   overflow: auto
-}
+}*/
 .w3-bar-block .w3-dropdown-hover, .w3-bar-block .w3-dropdown-click {
   width: 100%
 }
@@ -1037,9 +1073,6 @@ textarea {
 }
 .w3-margin-left {
   margin-left: 16px!important
-}
-.w3-margin-right {
-  margin-right: 16px!important
 }
 .w3-padding-small {
   padding: 4px 8px!important
