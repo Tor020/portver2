@@ -1,4 +1,9 @@
 /* Custom Styles */
+
+a:link, a:visted, a:hover, a:active, a
+{
+text-decoration:none;
+}
 .offset-main
 {
 	margin-left:300px
@@ -6,13 +11,19 @@
 .profilepic{
 	width:45%;
 	border-radius: 14px;
-}
+}/*
 
 .igap {
   margin-left:2px;
 }
+nav#mySidebar{
+  margin:700px !important; 
+  background-color:pink !important;
+  color:brown !important;
+  transform-
+}
 
-/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+ Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 /* W3.CSS 4.01 Mar 2017 by Jan Egil and Borge Refsnes */
 html, body {
   font-family: Verdana, sans-serif;
@@ -93,13 +104,13 @@ audio:not([controls]) {
 [hidden], template {
   display: none
 }
-a {
+/*a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects
 }
 a:active, a:hover {
   outline-width: 0
-}
+} */
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
